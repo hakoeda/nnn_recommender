@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta name="twitter:card" content="summary" />
+  <meta property="og:url" content="https://hakoeda.github.io/nnn_recommender/index.html" />
+  <meta property="og:title" content="あなたにオススメの授業診断" />
+  <meta property="og:description" content="N予備校プログラミング入門コースの授業をオススメします。" />
+  <meta property="og:image" content="https://hakoeda.github.io/nnn_recommender/nnn_logo.jpg" />
+  <meta charset="UTF-8">
+  <title>あなたにオススメの授業診断</title>
+  <link rel="stylesheet" href="recommend.css">
+</head>
+<body>
+  <h1>あなたにオススメの授業</h1>
+  <img src="nnn_logo.jpg">
+  <p>名前を入れて下さい</p>
+  <input type="text" id="input-name" size="20" maxlength="10">
+  <div id="result-area" style="display: none;">
+    <p><span id="name"></span>にオススメの授業は <a id="text_url" href="#" target="_blank">『<span id="text_title">{reccomend}</span>』</a> です！</p>
+    <p>授業動画は <a id="video_url" href="#" target="_blank">こちら</a></p>
+  </div>
+  <script src="recommend.js"></script>
+</body>
+</html>

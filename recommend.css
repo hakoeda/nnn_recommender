@@ -1,0 +1,23 @@
+body {
+  background-color: #fff;
+  color: #1a1a1a;
+  width: 100%;
+  margin: 0px auto;
+  text-align: center;
+}
+h1 {
+  color: #fff;
+  background-color: #0075c2;
+  padding: 10px;
+  margin: 0px 0px 20px 0px;
+}
+input {
+  height: 20px;
+  text-align: center;
+  border-style: solid 1px #0075c2;
+  border-radius: 5px;
+}
+a {
+  color: #4183c4;
+  text-decoration: none;
+}
