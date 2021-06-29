@@ -22,7 +22,7 @@ const nyobi = {
   ],
   getReccomend: (name) => {
     // 全文字のコード番号を取得してそれを足し合わせる
-    let sumOfCharCode = name.split("").map( e => e.charCodeAt() ).reduce( (acc, cur) => acc + cur , 0);
+    const sumOfCharCode = name.split("").map( e => e.charCodeAt() ).reduce( (acc, cur) => acc + cur , 0);
     // 文字のコード番号の合計を回答の数で割って添字の数値を求める
     return nyobi.data[sumOfCharCode % nyobi.data.length];
   }
